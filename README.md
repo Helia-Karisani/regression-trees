@@ -189,4 +189,5 @@ Running the notebook should produce:
 
 ## License / Attribution
 
-Dataset credited to NYC Taxi & Limousine Commission (TLC). This project is a learning exercise built on a publicly available dataset subset used in the lab.
+Dataset credited to NYC Taxi & Limousine Commission (TLC). This project is a learning exercise built on a publicly available dataset subset.
+
