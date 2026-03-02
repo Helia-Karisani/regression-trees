@@ -75,6 +75,14 @@ This reduces the impact of scale differences across rows and makes learning more
 
 A regression tree recursively splits the feature space into regions. Each region corresponds to a **leaf node**, and the prediction for any point in that leaf is a constant.
 
+At one node, training does this:
+
+- For each feature j
+- Try many candidate thresholds s (typically thresholds between sorted unique values of that feature among the samples that reached the node)
+- Compute the split score, e.g.
+   - SSE(split) = SSE(left) + SSE(right)
+   - and pick the (j, s) with minimum SSE.
+
 ### Prediction rule at a leaf
 
 If a point falls into leaf `L`, the predicted value is the mean label value of training samples in that leaf:
