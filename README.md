@@ -1,4 +1,4 @@
-# Regression Trees (Decision Tree Regressor) — NYC Taxi Tip Prediction
+# Regression Trees (Decision Tree Regressor), NYC Taxi Tip Prediction
 
 This project trains a **regression tree** using Scikit-Learn’s `DecisionTreeRegressor` to predict **tip amount** (`tip_amount`) from a subset of the publicly available **NYC Taxi & Limousine Commission (TLC)** trip dataset.
 
@@ -135,14 +135,14 @@ Lower is better.
 
 ## How to Run
 
-### Option A — Run the notebook
+### Option A, Run the notebook
 
 1. Clone the repo:
    `git clone <YOUR_REPO_URL>`
 2. Open `regression-trees.ipynb`
 3. Run cells top-to-bottom
 
-### Option B — Run locally (recommended setup)
+### Option B, Run locally (recommended setup)
 
 Create and activate a virtual environment:
 
@@ -169,8 +169,8 @@ Open `regression-trees.ipynb` and run all cells.
 
 ## Repo Structure
 
-- `regression-trees.ipynb` — main notebook
-- `README.md` — project overview (this file)
+- `regression-trees.ipynb`, main notebook
+- `README.md`, project overview (this file)
 
 ---
 
